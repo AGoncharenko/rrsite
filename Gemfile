@@ -12,3 +12,7 @@ gem 'coffee-rails', '~> 4.0.0'                        # Use CoffeeScript for .js
 gem 'jquery-rails'                                    # Use jquery as the JavaScript library
 gem 'spring',        group: :development              # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'geocoder', '~> 1.2.6'                            # Provides object geocoding (by street or IP address)
+
+group :staging, :production do
+  gem "rails_12factor", "~> 0.0.2"                    # Helps speed up deploys on heroku
+end
