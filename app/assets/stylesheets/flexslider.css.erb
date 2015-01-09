@@ -25,11 +25,11 @@
 /* Font-face Icons */
 @font-face {
 	font-family: 'flexslider-icon';
-	src:url('../fonts/flexslider-icon.eot');
-	src:url('../fonts/flexslider-icon.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/flexslider-icon.woff') format('woff'),
-		url('../fonts/flexslider-icon.ttf') format('truetype'),
-		url('../fonts/flexslider-icon.svg#flexslider-icon') format('svg');
+	src:url(<%= asset_path("'flexslider-icon.eot'") %>);
+	src:url(<%= asset_path("'flexslider-icon.eot?#iefix') format('embedded-opentype'") %>),
+		url(<%= asset_path("'flexslider-icon.woff') format('woff'") %>),
+		url(<%= asset_path("'.flexslider-icon.ttf') format('truetype'") %>),
+		url(<%= asset_path("'.flexslider-icon.svg#flexslider-icon') format('svg'") %>);
 	font-weight: normal;
 	font-style: normal;
 }
@@ -61,7 +61,7 @@ html[xmlns] .slides {display: block;}
 
 /* Direction Nav */
 .flex-direction-nav {*height: 0;}
-.flex-direction-nav a  { display: block; width: 55px; height: 55px; margin: -20px 0 0; position: absolute; top: 50%; z-index: 10; overflow: hidden; opacity: 0; cursor: pointer; background:url(blog/controls.png); -webkit-transition: all .3s ease; -moz-transition: all .3s ease; transition: all .3s ease; }
+.flex-direction-nav a  { display: block; width: 55px; height: 55px; margin: -20px 0 0; position: absolute; top: 50%; z-index: 10; overflow: hidden; opacity: 0; cursor: pointer; background:url(<%= asset_path("blog/controls.png") %>); -webkit-transition: all .3s ease; -moz-transition: all .3s ease; transition: all .3s ease; }
 .flex-direction-nav .flex-prev { left: 2%; background-position:left top;}
 .flex-direction-nav .flex-next { right: 2%; text-align: right; background-position:right top;}
 .flexslider:hover .flex-prev { opacity: 0.7; left: 10px; }

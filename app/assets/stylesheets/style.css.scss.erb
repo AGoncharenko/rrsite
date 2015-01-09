@@ -192,7 +192,7 @@
 		opacity:0.4;
 	}
 	.pattern:after{
-		background: url(pattern.png);
+		background: url(<%= asset_path("pattern.png") %>);
 		width:100%;
 		height:100%;
 		bottom:0;
@@ -203,29 +203,29 @@
 	}
 
 	.home-pattern-style{
-		background:url(home-pattern.jpg) repeat;
+		background:url(<%= asset_path("home-pattern.jpg") %>) repeat;
 		width:100%;
 		height:100%;
 	}
 
 	#slides .slides-container .image1{
-		background:url(1.jpg) center fixed;
+		background:url(<%= asset_path("1.jpg") %>) center fixed;
 	}
 
 	#slides .slides-container .image2{
-		background:url(2.jpg) center fixed;
+		background:url(<%= asset_path("2.jpg") %>) center fixed;
 	}
 
 	#slides .slides-container .image3{
-		background:url(3.jpg) center fixed;
+		background:url(<%= asset_path("3.jpg") %>) center fixed;
 	}
 
 	#slides .slides-container .image4{
-		background:url(4.jpg) center fixed;
+		background:url(<%= asset_path("4.jpg") %>) center fixed;
 	}
 
 	#slides .slides-container .image5{
-		background:url(5.jpg) center fixed;
+		background:url(<%= asset_path("5.jpg") %>) center fixed;
 	}
 
 	#slides .scrollable {
@@ -257,7 +257,7 @@
 		display: block;
 		width:74px;
 		height:74px;
-		background:url(arrows.png);
+		background:url(<%= asset_path("arrows.png") %>);
 		opacity:0;
 		-webkit-transition: all 0.5s;
 		-moz-transition: all 0.5s;
@@ -1040,7 +1040,7 @@
 /* Testimonials */	
 
 	#testimonial{
-		background: url(i5.jpg) center center fixed;
+		background: url(<%= asset_path("i5.jpg") %>) center center fixed;
 		margin:60px auto 0;
 		clear: both;
 	}
@@ -1090,7 +1090,7 @@
 		width:23px;
 		height: 28px;
 		display:block;
-		background: url(direction.png);
+		background: url(<%= asset_path("direction.png") %>);
 	}
 
 	.testimonial ul.flex-direction-nav li a.flex-prev{
@@ -2234,7 +2234,7 @@
 /* Table Active Styles */
 
 	.packages .active{
-		background:url(price-top-bg.jpg) top center repeat-x, #3d3d3d;
+		background:url(<%= asset_path("price-top-bg.jpg") %>) top center repeat-x, #3d3d3d;
 	}
 
 	.packages .active ol li{
@@ -2880,7 +2880,7 @@
 	.sidebar ul li{
 		width:100%;
 		height:auto;
-		background:url(li-arrow.png) center left no-repeat;
+		background:url(<%= asset_path("li-arrow.png") %>) center left no-repeat;
 	}
 	
 	.sidebar ul li a{
