@@ -942,8 +942,8 @@
 /* Features */
 
 	#features{
-		background:url(i1.jpg)top center repeat-x;
-		height:962x;
+		background:url(<%= asset_path("i1.jpg") %>)top center repeat-x;
+		height:962px;
 		margin-top:20px;
 	}
 
@@ -952,7 +952,7 @@
 		height:606px;
 		margin:50px auto 0;
 		max-width:1030px;
-		background:url(f-iphone.png) center center no-repeat;
+		background:url(<%= asset_path("f-iphone.png") %>) center center no-repeat;
 	}
 
 /* Features Boxes */
@@ -1022,19 +1022,19 @@
 /* Features Box Strips */
 
 	.f1:after{
-		background:url(f1.png) no-repeat;
+		background:url(<%= asset_path("f1.png") %>) no-repeat;
 	}
 
 	.f2:after{
-		background:url(f2.png) no-repeat;
+		background:url(<%= asset_path("f2.png") %>) no-repeat;
 	}
 
 	.f3:after{
-		background:url(f3.png) no-repeat;
+		background:url(<%= asset_path("f3.png") %>) no-repeat;
 	}
 
 	.f4:after{
-		background:url(f4.png) no-repeat;
+		background:url(<%= asset_path("f4.png") %>) no-repeat;
 	}
 
 /* Testimonials */	
@@ -1236,7 +1236,7 @@
 	#history{
 		margin:60px auto 0;
 		min-height:1000px;
-		background:url(i2.jpg) top center repeat fixed;
+		background:url(<%= asset_path("i2.jpg") %>) top center repeat fixed;
 	}
 
 /* Timeline */
@@ -1244,7 +1244,7 @@
 	ul.timeline{
 		margin:40px auto 0;
 		width:100%;
-		background:url(timeline-bg.jpg) center center repeat-y;
+		background:url(<%= asset_path("timeline-bg.jpg") %>) center center repeat-y;
 		height:auto;
 		position:relative;
 		padding:0 0 80px;
@@ -1508,7 +1508,7 @@
 	.owl-buttons>div{
 		width:35px;
 		height:35px;
-		background-image:url(team/controls.png);
+		background-image:url(<%= asset_path("team/controls.png") %>);
 		color:black;
 		cursor:pointer
 	}
@@ -1583,7 +1583,7 @@
 
 	#why-us{
 		margin:50px auto 0;
-		background:url(i3.jpg) center fixed;
+		background:url(<%= asset_path("i3.jpg") %>) center fixed;
 		padding:0 0 30px;
 	}
 
@@ -1879,7 +1879,7 @@
 	}
 
 	#services .bg{
-		background:url(i4.jpg) top center fixed;
+		background:url(<%= asset_path("i4.jpg") %>) top center fixed;
 	}
 
 	.service-contents{
@@ -1977,7 +1977,7 @@
 /* Services Bottom*/
 
 	#services .bottom-bg{
-		background:url(ipad.png) bottom center no-repeat;
+		background:url(<%= asset_path("ipad.png") %>) bottom center no-repeat;
 		min-height:240px;
 		margin:80px auto;
 	}
@@ -2015,7 +2015,7 @@
 		height:100px;
 		top:68px;
 		left:-34px;
-		background:url(spanbg2.png) center center no-repeat;
+		background:url(<%= asset_path("spanbg2.png") %>) center center no-repeat;
 	}
 
 	.slide-s{
@@ -2030,7 +2030,7 @@
 /* Controls */
 
 	.carousel .s-controls{
-		background-image:url(service-icons.png);
+		background-image:url(<%= asset_path("service-icons.png") %>);
 		width:30px;
 		height:30px;
 		margin:20px;
@@ -2074,7 +2074,7 @@
 	}
 
 	.video-pattern{
-		background: url(pattern.png);
+		background: url(<%= asset_path("pattern.png") %>);
 		width:100%;
 		height:100%;
 		top:0;
@@ -2085,7 +2085,7 @@
 	}
 
 	.video-text{
-		background: url(video-text.png) center center no-repeat;
+		background: url(<%= asset_path("video-text.png") %>) center center no-repeat;
 		width:100%;
 		height:100%;
 		top:0;
@@ -2110,7 +2110,7 @@
 		width:23%;
 		margin:0 15px;
 		float:left;
-		background:url(price-top-bg.jpg) top center repeat-x, white;
+		background:url(<%= asset_path("price-top-bg.jpg") %>) top center repeat-x, white;
 		text-align:center;
 		cursor:default;
 		-webkit-transition: all 0.3s;
@@ -2925,7 +2925,7 @@
 		width:100%;
 		height:100%;
 		display:block;
-		background:url(back-top.png) no-repeat;
+		background:url(<%= asset_path("back-top.png") %>) no-repeat;
 		opacity:0.1;
 		-webkit-transition: all 0.3s;
 		-moz-transition: all 0.3s;
