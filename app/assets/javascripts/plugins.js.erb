@@ -284,8 +284,8 @@ window.onload = function () {
     if(window.location.pathname != '/blog') {
 
         'use strict';
-        var RollGreen = {lat: 37.947010, lang: -122.077198}
-        var latlng = new google.maps.LatLng(RollGreen.lat, RollGreen.lang);
+        var Vault = {lat: 37.797322, lang: -122.402298}
+        var latlng = new google.maps.LatLng(Vault.lat, Vault.lang);
 
         var styles = [
 
@@ -334,7 +334,7 @@ window.onload = function () {
             '<div id="siteNotice">' +
             '</div>' +
             '<h4>We Are Here</h4>' +
-            '<p>64 Rolling Green Cir <br/>Pleasant Hill, CA 94523 <br/>USA' +
+            '<p>415 Jackson Street <br/>San Francisco, CA 94111 <br/>USA' +
             '</p>' +
             '</div>';
 
@@ -344,7 +344,7 @@ window.onload = function () {
 
         var map = new google.maps.Map(document.getElementById('map'), myOptions);
 
-        var myLatlng = new google.maps.LatLng(RollGreen.lat, RollGreen.lang);
+        var myLatlng = new google.maps.LatLng(Vault.lat, Vault.lang);
 
 //        var image = 'assets/marker.png';
         var image = "<%= image_path('marker.png') %>";
