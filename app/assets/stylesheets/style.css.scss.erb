@@ -147,7 +147,7 @@
 		font-weight:300;
 		text-transform:uppercase;
 		width:100%;
-		max-width:860px;
+		max-width:905px;
 		text-align:center;
 		opacity:0.7;
 	}
@@ -686,19 +686,19 @@
 
 	.revslide .h6{
 		font-size:50px;
-		color:#726c64;
+		color:#fff;
 		padding:0;
 	}
 
 	.revslide .p5{
 		font-size:25px;
-		color:#726c64;
+		color:#fff;
 		padding:0;
 	}
 
 	.revslide .p6{
 		font-size:15px;
-		color:#726c64;
+		color:#fff;
 		padding:0;
 		text-transform:none;
 		font-weight:300;
@@ -1586,23 +1586,26 @@
 		margin:50px auto 0;
 		background:url(<%= asset_path("i3.jpg") %>) center fixed;
 		padding:0 0 30px;
-    i{
-      float: left;
-      border: 1px solid transparent;
-      margin-right: 2px;
+    .accordion-heading{
+      i{
+        float: left;
+        border: 1px solid transparent;
+        margin-right: 2px;
+      }
     }
 	}
 
 /* iphone image */
 
-	.w-iphone{
+	.q-mark{
 		float:left;
 		margin:30px auto 20px;
 		margin-left:-40px;
 		width:49%;
+    text-align: center;
 	}
 
-	.w-iphone img{
+	.q-mark img{
 		width:100%;
 	}
 
@@ -2107,7 +2110,7 @@
 
 /* Pricing Tables */
 
-	#prices .bg{
+	#pricing .bg{
     background:url(<%= asset_path("i6.jpg") %>) top center fixed;
   }
 
