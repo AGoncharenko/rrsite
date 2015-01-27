@@ -28,6 +28,7 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     arel (5.0.1.20140414130214)
+    awesome_print (1.6.1)
     builder (3.2.2)
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
@@ -36,9 +37,12 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.8.0)
+    colorize (0.7.5)
     erubis (2.7.0)
     execjs (2.2.2)
     geocoder (1.2.6)
+    git-smart (0.1.10)
+      colorize
     hike (1.2.3)
     i18n (0.7.0)
     jquery-rails (3.1.2)
@@ -113,8 +117,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  awesome_print
   coffee-rails (~> 4.0.0)
   geocoder (~> 1.2.6)
+  git-smart (~> 0.1.9)
   jquery-rails
   pg (~> 0.18.0)
   rails (= 4.1.6)

@@ -16,3 +16,8 @@ gem 'geocoder', '~> 1.2.6'                            # Provides object geocodin
 group :staging, :production do
   gem "rails_12factor", "~> 0.0.2"                    # Helps speed up deploys on heroku
 end
+
+group :development do
+  gem "git-smart", "~> 0.1.9"                         # Allows "git smart-pull" for less merge messes
+  gem "awesome_print"                                 # Nicely formatted data structures in console, for example "ap User.first"
+end
