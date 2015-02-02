@@ -4,6 +4,7 @@ ruby '2.1.3'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
 gem "unicorn", "~> 4.8.3"                             # Webserver recommended by heroku (for increased scaling)
+gem 'heroku', '~> 3.25.0'                             # Heroku hosting
 gem "unicorn-rails", "~> 2.2.0"                       # Makes unicorn the default rails server
 gem "pg", "~> 0.18.0"                                 # Postgres gem
 gem 'sass-rails', '~> 4.0.3'                          # Use SCSS for stylesheets
