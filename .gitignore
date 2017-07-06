@@ -28,4 +28,8 @@ server.key
 *.key
 *.psql
 *.dump
+*.rdb
+/test/performance/jmeter.jmx
+/test/performance/jmeter.log
 .byebug_history
+benchmark1.txt
